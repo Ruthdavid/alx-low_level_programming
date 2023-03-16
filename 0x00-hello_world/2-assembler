@@ -1,2 +1,2 @@
-#!bin/bash
-gcc $CFIlE -S
+#!/bin/bash  
+gcc $CFIlE -s
