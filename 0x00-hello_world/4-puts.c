@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *main-Entry point
- *
- *Return:Always 0(Success)
+ * main - a program that prints a line with a puts function
+ * Return: 0 (Succes)
  */
-int main(Void)
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
+root@c817205e4147:/alx-low_level_programming/0x00-hello_world# 
