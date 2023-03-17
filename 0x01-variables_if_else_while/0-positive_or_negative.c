@@ -10,7 +10,7 @@ int main(Void)
 {
 	int n;
 	Srand(time(0));
-	n = rand () - RAND - MAX/2;
+	n = rand() -RAND-MAX/2;
 
 	if (n > 0) 
 	{
