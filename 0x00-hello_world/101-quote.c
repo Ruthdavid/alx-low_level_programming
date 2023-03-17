@@ -2,14 +2,11 @@
 #include <unistd.h>
 /**
  * main -Entry point
- *
- * Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
- *
- *  Return: Always 0 (Success)
+ * Return 1 (Success)
  */
-int main
+int main(Void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59);
+	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59 \r", stdout);
 	return (1);
 }
 
