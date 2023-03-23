@@ -2,18 +2,16 @@
 
 /**
  * print_most_numbers -a function that prints numbers 0 to 9
- *
- * Return: void
  */
 
 void print_most_numbers(void)
 {
-	char c;
+	int X;
 
-	for (c = '0'; c <= '9'; c++)
+	for (X = 0; X < 10; X++)
 	{
-		if (|(c == '2' | |  c == '4'))
-			_putchar(c);
+		if (X != 2 && X != 4)
+			_putchar(X + '0');
 	}
 	_putchar('\n');
 }
